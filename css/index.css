@@ -12,51 +12,55 @@
          url('../Resourses/fonts/share-tech-mono-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../Resourses/fonts/share-tech-mono-v13-latin-regular.svg#ShareTechMono') format('svg'); /* Legacy iOS */
 }
+body {
+    background-color: black;
+    margin: 0 auto;
+    width: 100%;
+}
+
 h1, p, figcaption {
     font-family: 'Share Tech Mono', monospace;
+    color: green;
+    text-align: center;
 }
 
 header {
-    background-color: bisque;
     color: green;
-    background-color: black;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    margin: 0%;
+    position: fixed;
+    width: 100%
 }
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+} 
  .intro {
-    color: green;
-    background-color: black;
-    margin:0%;
     padding: 20px;
     align-items: center;
-
+    position:relative;
+    top: 110px;
 }
-.intro h1 {
-    text-align: center;
-    font-size: 100px;
-} 
-.intro p{
+p {
      font-size: 20px;
  }
 img {
-    background-color: black;
-    margin: 0%;
-    padding: auto;
-    align-items: center;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    display: block;
+    margin:0 auto;
+
 }
 .intro figcaption {
-    margin: 0%;
+    margin: 0 auto;
     padding-bottom: 250px;
+    line-height: 1.5;
 }
-.footer {
-    background-color: black;
-    margin:0%;
-    background-color: black;
-}
+
 .footer p {
     color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     bottom: 0px;
+    left: 1em;
 } 
