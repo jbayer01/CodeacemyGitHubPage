@@ -30,9 +30,10 @@ header {
     top: 0;
     width: 100%;
     box-sizing: border-box;
-    height: 150px;
+    height: 200px;
     margin: auto;
     z-index: 100;
+    background-color: black;
 }
 header h1 {
     text-align: center;
