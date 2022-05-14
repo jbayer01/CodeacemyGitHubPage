@@ -37,7 +37,7 @@ const healthFutures = [
 
 //the randomMessagePicker takes an array as a parameter. It then randomly selects an element of the array and returns that element
 const randomMessagePicker = (fortuneMessages)=> {
-    const randNum =Math.floor(Math.random()*fortuneMessages.length);  //randomly select a number based on the array length
+    let randNum =Math.floor(Math.random()*fortuneMessages.length);  //randomly select a number based on the array length
     return fortuneMessages[randNum];  //return the random element from the array
 }
 
